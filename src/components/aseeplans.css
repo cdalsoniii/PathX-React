@@ -1,0 +1,113 @@
+.aseeplans-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.aseeplans-seeplans {
+  width: 100%;
+  height: 171px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 444px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 0px 0px 0px 0px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.aseeplans-btn-primary {
+  top: 54px;
+  left: 51px;
+  width: 350px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0;
+  border-radius: 12px;
+  margin-bottom: 0;
+  justify-content: center;
+  background-color: rgba(223, 216, 216, 1);
+}
+.aseeplans-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: GRIFTER;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.aseeplans-btn-primary1 {
+  top: 43px;
+  left: 44px;
+  width: 350px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0;
+  border-radius: 12px;
+  margin-bottom: 0;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.aseeplans-text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: GRIFTER;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.aseeplans-text3 {
+  top: 123px;
+  left: 49px;
+  color: rgba(0, 0, 0, 1);
+  width: 328px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .aseeplans-container {
+    width: 443px;
+    height: 167px;
+  }
+}

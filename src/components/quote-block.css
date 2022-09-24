@@ -1,0 +1,116 @@
+.quote-block-container {
+  width: 619px;
+  height: 632px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.quote-block-rectangle9 {
+  top: 452px;
+  left: 251px;
+  width: 480px;
+  height: 632px;
+  position: absolute;
+  box-sizing: border-box;
+  description: text;
+  border-color: transparent;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.quote-block-image25 {
+  top: 506px;
+  left: 277px;
+  width: 84px;
+  height: 72px;
+  position: absolute;
+  box-sizing: border-box;
+  description: text;
+  border-color: transparent;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.quote-block-f-a-q {
+  top: 624px;
+  left: 157px;
+  width: 575px;
+  height: 451px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: center;
+  description: text;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.quote-block-section-heading {
+  top: 0px;
+  left: 120px;
+  width: 442px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  description: text;
+  border-color: transparent;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+.quote-block-text {
+  top: 26px;
+  color: var(--dl-color-text-gray900);
+  right: 18px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  description: text;
+  font-family: GRIFTER;
+  font-weight: 700;
+  line-height: 64px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.quote-block-root-class-name {
+  top: 464px;
+  left: 113px;
+  position: absolute;
+}
+.quote-block-root-class-name1 {
+  top: 464px;
+  left: 113px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .quote-block-rectangle9 {
+    top: 0px;
+    left: 0px;
+  }
+  .quote-block-image25 {
+    top: 54px;
+    left: 26px;
+  }
+  .quote-block-f-a-q {
+    top: 160px;
+    left: 44px;
+  }
+  .quote-block-text {
+    top: 39px;
+    left: -20px;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .quote-block-container {
+    width: 459px;
+  }
+}
